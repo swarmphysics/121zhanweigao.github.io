@@ -13,8 +13,8 @@ header:
     - name: Home
       slug: /
     - name: Projects
-    - name: Blog
-    - name: Pursuits
+    # - name: Blog
+    # - name: Pursuits
     - name: Publications
     - name: Presentations
     - name: Teaching
