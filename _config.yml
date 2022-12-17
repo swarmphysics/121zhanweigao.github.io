@@ -15,6 +15,9 @@ header:
     - name: Projects
     - name: Blog
     - name: Pursuits
+    - name: Publications
+    - name: Presentations
+    - name: Teaching
 
 footer:
   show_powered_by: false
