@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/AnaMatoso.jpeg
+  src: /assets/img/profile_picture.JPG
   alt: Picture of Ana Matoso
 ---
 
