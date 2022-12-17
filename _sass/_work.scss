@@ -1,0 +1,72 @@
+.work-item {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 3em;
+}
+
+.work-bubble {
+  float: left;
+  padding-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Timeline Container */
+.timeline {
+  background: var(--primary-color);
+
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid rgb(0, 0, 0);
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  max-width: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title of the card */
+.title {
+  color: rgb(181, 28, 17);
+  position: relative;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid rgb(181, 28, 17);
+}
