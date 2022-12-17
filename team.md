@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: Projects
-slug: /projectsX
+slug: /team
 items:
   - title: Experiment with Differential Privacy using IBM's Diffprivlib
     image:
