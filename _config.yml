@@ -18,6 +18,7 @@ header:
     - name: Publications
     - name: Presentations
     - name: Teaching
+    - name: Team
 
 footer:
   show_powered_by: false
