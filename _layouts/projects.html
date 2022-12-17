@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="page-content" style="padding-top:15vh;">
+      <div class="wrapper">
+        <div class="projects">
+          <h1 class="page-heading">{{ page.title }}</h1>
+          {{ content }}
+
+          {% for item in page.items %}
+          <div class="projects-item">
+            <img
+              src="{{ item.image.src | absolute_url }}"
+              alt="{{ item.image.alt }}"
+              class="projects-bubble"
+            />
+            <span class="projects-text">
+              <a href=" {{ item.image.href }} ">
+                <span class="projects-title">
+                  <strong>{{ item.title }}</strong>
+                </span>
+              </a>
+              &mdash;
+              <span>
+                {{ item.description }}
+              </span>
+            </span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include foot.html %}
+  </body>
+</html>
