@@ -3,7 +3,7 @@
 
 title: Zhanwei Gao
 description: >- # this means to ignore newlines until "baseurl:"
-  Chaitanyasuma's website
+  Zhanwei Gao's website
 baseurl: "" # the subpath of the site
 url: "https://zhanweigao.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
